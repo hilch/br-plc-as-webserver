@@ -9,7 +9,7 @@ Demo: use a B&amp;R plc as a web server
 - As/webdemo : Automation Studio project (ArSim)
 - USER/web : HTML website data which should be stored in Flash memory (USER- partition)
 
-## Rnstallation / Usage
+## Installation / Usage
 
 1. download or clone repository
 

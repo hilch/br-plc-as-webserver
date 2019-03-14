@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1">
+    <Connection Connector="X2X1" TargetModule="X20CP3585" TargetConnector="IF6" />
+  </Module>
+  <Module Name="X20CP3585" Type="X20CP3585" Version="1.3.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="EthInterfaceRedundant" Value="0" />
+      <Parameter ID="HostName" Value="if2-mycp3585" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="10.49.40.221" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="EplInterfaceRedundant" Value="0" />
+      <Parameter ID="EplHostName" Value="if3-mycp3585" />
+      <Parameter ID="EplEthInterfaceRedundant" Value="0" />
+      <Parameter ID="HostName" Value="if3-eth-mycp3585" />
+    </Connector>
+    <Connector Name="IF6">
+      <Parameter ID="CycleTime" Value="10000" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="webdemo_X20CP" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="EnableUsbRemoteInstall" Value="1" />
+    <Parameter ID="EthernetHostName" Value="mycp3585" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="ich" />
+    <Parameter ID="FtpUserPassword1" Value="PsbtO9eSDR2PTXLzf1bU4yBAucIjxDv5zVoWpEx6m9g=" />
+    <Parameter ID="FtpUserSalt1" Value="1FNSeuv6" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+    <Parameter ID="FTPdevice1" Value="ALL" />
+    <Parameter ID="WebServerWebDir" Value="C:\Users\hilchenbachc\Documents\asprojekte\drehmo\webdemo\CompactFlash\web" />
+    <Parameter ID="SdmColor" Value="colorRGB" />
+    <Parameter ID="SdmColorR" Value="0" />
+    <Parameter ID="SdmColorG" Value="129" />
+    <Parameter ID="SdmColorB" Value="227" />
+  </Module>
+  <Module Name="X20DO9321" Type="X20DO9321" Version="1.0.2.0">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>

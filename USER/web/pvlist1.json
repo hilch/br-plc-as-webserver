@@ -1,0 +1,10 @@
+{
+	"refresh" : "300",
+	"pvars" : [
+		"WebPV.test1",
+		"WebPV.test2",
+		"WebPV.bool1",
+		"WebPV.bool2",
+		"WebPV.range1"		
+	]
+}

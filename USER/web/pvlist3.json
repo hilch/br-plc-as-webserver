@@ -1,0 +1,37 @@
+{
+	"refresh" : "200",
+	"pvars" : [
+		"WebPV.array[0]",
+		"WebPV.array[1]",
+		"WebPV.array[2]",
+		"WebPV.array[3]",
+		"WebPV.array[4]",
+		"WebPV.array[5]",
+		"WebPV.array[6]",
+		"WebPV.array[7]",
+		"WebPV.array[8]",
+		"WebPV.array[9]",
+		"WebPV.array[10]",
+		"WebPV.array[11]",
+		"WebPV.array[12]",
+		"WebPV.array[13]",
+		"WebPV.array[14]"		
+	],
+	"units" : [
+		"a",
+		"b",
+		"c",
+		"d",
+		"e",
+		"f",
+		"g",
+		"h",
+		"i",
+		"j",
+		"k",
+		"l",
+		"m",
+		"n",
+		"o"
+	]
+}

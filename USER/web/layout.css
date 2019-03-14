@@ -1,0 +1,74 @@
+body.ui-mobile-viewport, div.ui-mobile-viewport {
+    overflow-y: hidden !important; 
+}
+
+
+[data-role=page]{
+    height: 100% !important;
+    position:relative !important;
+}
+[data-role=footer]{
+    bottom:0;
+    position:absolute !important;
+    top: auto !important;
+    width:100%;
+    /*background-color: rgb(255, 136, 0) !important;    */
+}
+/*footer a
+{
+    height: 50px;
+}*/
+
+/*
+[data-role=header]{
+    background-color: rgb(255, 136, 0) !important;
+}
+*/
+
+#myCanvas1
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#sdmFrame
+{
+    width: 620px;
+    height: 339px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Tastatur */
+
+#numpad
+{
+    width:270px;
+    font-size: small;
+}
+
+#numpadEdit
+{
+    border-style: none;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+#page5 [data-role="content"]
+{
+    height: 90%;
+    /*background-color: blue;*/
+    padding: 0;
+    overflow:hidden;       
+}
+
+#sdmFrame
+{
+    height: 100%;
+    width: 100%;
+    /*background-color: cyan;*/
+    border: none;
+}
+

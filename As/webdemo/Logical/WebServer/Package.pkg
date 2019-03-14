@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.5.68 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Package data types" Private="true">WebServer.typ</Object>
+    <Object Type="File" Description="Package variables" Private="true">WebServer.var</Object>
+    <Object Type="Program" Language="IEC" Description="Daten fuer den Webserver">webdata</Object>
+  </Objects>
+</Package>

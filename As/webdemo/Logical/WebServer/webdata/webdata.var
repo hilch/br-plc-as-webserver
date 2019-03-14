@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Programm: webdata
+ * Datei: webdata.var
+ * Autor: hilchenbachc
+ * Erstellt: 30. Januar 2015
+ ********************************************************************
+ * Lokale Variablen des Programms webdata
+ ********************************************************************)
+VAR
+	DTGetTime_1 : DTGetTime;
+	i : INT;
+END_VAR

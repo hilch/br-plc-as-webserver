@@ -11,7 +11,7 @@ Demo: use a B&amp;R plc as a web server
 
 ## Installation / Usage
 
-1. download or clone repository
+1. download release https://github.com/hilch/br-plc-as-webserver/releases
 
 1. set 'Web root directory' to your 'USER/web' - directory ![web-file-device](https://github.com/hilch/br-plc-as-webserver/blob/master/media/web_file_device.png)
 

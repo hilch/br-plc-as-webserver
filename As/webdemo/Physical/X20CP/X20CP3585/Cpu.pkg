@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.5.2.102?>
+<?AutomationStudio FileVersion="4.9"?>
 <Cpu xmlns="http://br-automation.co.at/AS/Cpu">
   <Objects>
     <Object Type="File" Description="Software Konfiguration">Cpu.sw</Object>
@@ -8,15 +8,15 @@
     <Object Type="File" Description="Variablenzuordnung">PvMap.vvm</Object>
   </Objects>
   <Configuration HasNcOperatingSystem="true" LocalVariablesMemory="MemoryPool" ModuleId="X20CP3585">
-    <AutomationRuntime Version="D4.52" />
+    <AutomationRuntime Version="D4.93" />
     <Build GccVersion="4.1.2" GeneratePPCode="false" />
     <DefaultTargetMemory DataObjects="UserROM" Libraries="UserROM" Tasks="UserROM" />
-    <Opc EncryptOpcs="false" UseShortNames="false" WindowsServer="true" />
-    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
-    <Transfer AdditionalUserDir="C:\projects\webdemo\USER" AddToUserPart="true" AllowInitialTransfer="false" AllowPartitioning="false" AllowWarmRestart="true" DownloadMode="Overload" ExecuteInitExitProgram="true" ForceInitialTransfer="true" GeneratePviTransferList="true" IdentificationTypeValue="" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" IgnoreVersion="true" KeepNonVolatileMemory="false" ModuleSystemForPip="" PackedArConfig="false" PackedIoMap="false" PreserveVariableValues="false" ProjectConsistent="false" PromptBeforeProject="false" PromptBeforeTask="false" RebootDuringTransfer="false" TargetIdentificationType="Always" TransferInServiceMode="false" TransferOnlyRelevantChanges="false" TryToBootInRunMode="false" UserFilesIgnoreDifference="false" />
     <Io ArConfigDataModule="false" ArConfigDataModulePath="$(AS_CPU_PATH)\AS\CfgData.br" DisabledHardware="false" IoMapDataModule="false" IoMapDataModulePath="$(AS_CPU_PATH)\AS\IomData.br" ManualIoOffsets="false" Supervision="true" />
-    <Simulation StartAR000="true" TerminateAR000="true" />
+    <Opc EncryptOpcs="false" UseShortNames="false" WindowsServer="true" />
     <Safety SafetyRelease="0.0" />
+    <Simulation StartAR000="true" TerminateAR000="true" />
+    <TaskClasses DefaultIoTaskClass="Automatic" DefaultTaskClass="Cyclic4" />
+    <Transfer AddToUserPart="True" AdditionalUserDir="\USER" AllowDowngrade="False" AllowInitialTransfer="False" AllowPartitioning="False" AllowWarmRestart="true" DownloadMode="Overload" ExecuteInitExitProgram="True" ForceInitialTransfer="True" GeneratePviTransferList="true" IdentificationTypeValue="" IgnoreBrDependencies="false" IgnoreTargetOnlyObjects="false" IgnoreVersion="True" KeepNonVolatileMemory="False" ModuleSystemForPip="" PackedArConfig="false" PackedIoMap="false" PreserveVariableValues="False" ProjectConsistent="False" PromptBeforeProject="false" PromptBeforeTask="false" RebootDuringTransfer="False" SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" TargetIdentificationType="Always" TransferInServiceMode="false" TransferOnlyRelevantChanges="false" TryToBootInRunMode="False" UserFilesIgnoreDifference="False" />
     <OnlineConfiguration Name="X20CP3585" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=99" ConnectionParameters="/RT=1000 /AM=* /SDT=5 /DAIP=192.168.0.10 /REPO=11159 /ANSL=1 /PT=11169" Description="" />
   </Configuration>
 </Cpu>

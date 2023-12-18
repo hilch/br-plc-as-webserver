@@ -12,13 +12,6 @@ Demo: use a B&amp;R plc as a web server
 
 ## Installation / Usage
 
-1. download release https://github.com/hilch/br-plc-as-webserver/releases
+see [/doc/tutorial.md](/doc/tutorial.md).
 
-1. set 'Web root directory' to your 'USER/web' - directory ![web-file-device](https://github.com/hilch/br-plc-as-webserver/blob/master/media/web_file_device.png)
-
-1. Compile the Automation Studio project
-
-1. the Automation Studio project uses an ArSim inside, so install the project by 'Offline-Installation' ![projekt-installation](https://github.com/hilch/br-plc-as-webserver/blob/master/media/project_installation.png)
-
-1. Navigate to http://127.0.0.1:80 with your browser
 

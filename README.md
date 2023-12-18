@@ -5,11 +5,6 @@ Demo: use a B&amp;R plc as a web server
 ![demo](https://github.com/hilch/br-plc-as-webserver/blob/master/media/demo.gif)
 
 
-## Repository
-
-- As/webdemo : Automation Studio project (ArSim)
-- USER/web : HTML website data which should be stored in Flash memory (USER- partition)
-
 ## Installation / Usage
 
 see [/doc/tutorial.md](/doc/tutorial.md).
